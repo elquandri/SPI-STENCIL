@@ -10,7 +10,7 @@ app.get("*", function(req, res) {
 
 
 //app.listen(8080);
-app.listen("8080", '127.0.0.1');
+app.listen(process.env.PORT, "0.0.0.0");
 
 //console.log('Server started on 0.0.0.0:' + process.env.PORT);
 
