@@ -27,6 +27,7 @@ export class SpiHeader {
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
+      <stencil-route-link url={"/"}>
       <a class="navbar-item">
       <span class="icon">
      <i class="fas fa-cogs"></i>
@@ -35,6 +36,7 @@ export class SpiHeader {
       SPI-STENCIL
         </span>
       </a>
+      </stencil-route-link>
     </div>
       <div class="navbar-item has-dropdown is-hoverable">
         <stencil-route-link url={"/candidat"}>

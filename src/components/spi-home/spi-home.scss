@@ -1,19 +1,15 @@
 @import "../../../node_modules/bulma/sass/elements/title.sass";
 @import "../../../node_modules/bulma/sass/elements/table.sass";
-.spi-home .container {
-    margin-top: 10vh
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+.home{
+  background-image: url("../../assets/background/adolescent-attractive-backpack-1462630.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+
 }
-.table{
-  margin-top: 1cm;
-  margin-left:auto;
-  margin-right:auto;
+
+.first{
+  color: white;
 }
-.en{
-  margin-top: 1cm;
-  text-align: center;
-}
-.is-primary{
-  margin-top:0.3cm ;
-  margin-left: 92%;
-  font-size: 15;
-}
+

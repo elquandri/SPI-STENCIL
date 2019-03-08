@@ -9,10 +9,12 @@ export class SpiRoot {
   render() {
     return (
       <div>
+
         <main>
+          <spi-header/>
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
-              <stencil-route url='/home' component='spi-home' exact={true} />
+              <stencil-route url='/' component='spi-home' exact={true} />
               <stencil-route url='/candidat' component='spi-home-candidat' exact={true}/>
               <stencil-route url='/promotion' component='spi-home-promotion' exact={true} />
               <stencil-route url='/formation' component='spi-home-formation' exact={true}/>
@@ -33,6 +35,7 @@ export class SpiRoot {
             </stencil-route-switch>
           </stencil-router>
         </main>
+
       </div>
     );
   }
